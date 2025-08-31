@@ -12,7 +12,7 @@ import {
   LogOut,
 } from "lucide-react"; // icon library
 import { Button } from "@/components/ui/button";
-import { ThemeToggle } from "@/components/theme-toggle";
+import { ThemeToggle } from "./theme-toggle";
 
 // ⚡️ NOTE: You are using a custom hook `useSession()` for auth state.
 // Make sure it's imported from your auth context (e.g. "@/hooks/useSession")
